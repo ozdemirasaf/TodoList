@@ -2,7 +2,7 @@
 
 try {
 
-    $db = new PDO("mysql:host=localhost;dbname=todo;charset=utf8", 'root', '12345678');
+    $db = new PDO("mysql:host=localhost;dbname=your_db_name;charset=utf8", 'your_db_username', 'your_db_password');
 
 } catch (PDOException $e) {
 
